@@ -32,9 +32,9 @@ function EsoLuaLoader:initializeGlobals()
 
     SLASH_COMMANDS = {}
 
-    require "EventManagerMock"
-    require "ChatSystemMock"
-    require "DMock"
+    require "EVENT_MANAGER"
+    require "CHAT_SYSTEM"
+    require "d"
     require "ZO_SavedVars"
 end
 
