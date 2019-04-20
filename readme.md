@@ -1,7 +1,9 @@
 ## About ESOUI Framework
-Create a development environment that is enjoyable and creative by allowing you to quickly and easily jump create esoui addons using TDD approach.
+Create a development environment that is enjoyable and  allowing you to quickly and easily jump in creating esoui addons using TDD approach.
 
 Use docker to expose lua interpreter upon alpine linux, luarocks package manager, and the busted lua testing framework.
+
+[![Build Status](https://travis-ci.org/rdok/esoui-framework.svg?branch=master)](https://travis-ci.org/rdok/esoui-framework)
 
 ![ESOUI Framework Logo](logo.jpg "ESOUI Framework Logo") 
 
