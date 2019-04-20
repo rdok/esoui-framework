@@ -12,6 +12,3 @@ function dd(variable)
     print(inspection)
     os.exit()
 end
-
---function TestCase:assertChatWindowContains(value)
---end

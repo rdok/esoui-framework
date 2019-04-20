@@ -1,16 +1,10 @@
-## Title: Pomodoro
+## Title: {AddonName}
 ## AddOnVersion: 1
 ## Version: 1.0.0
 ## APIVersion: 100026
-## Author: Rizart Dokollari
+## Author: {Author Name
 
-src/helpers.lua
-src/TextFormatter.lua
-src/Listener.lua
-src/HelpPage.lua
-src/Command.lua
-src/Pomodoro.lua
-src/RegisterAddon.lua
+src/{LuaFile}.lua
 
 # This Add-on is not created by, affiliated with, or sponsored by, ZeniMax Media Inc. or its affiliates.
 # The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States
