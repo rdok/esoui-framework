@@ -35,6 +35,7 @@ function EsoLuaLoader:initializeGlobals()
     require "EventManagerMock"
     require "ChatSystemMock"
     require "DMock"
+    require "ZO_SavedVars"
 end
 
 function EsoLuaLoader:initializeConstants()
