@@ -1,10 +1,10 @@
 local EsoLuaLoader = {}
 
-function EsoLuaLoader:requireLuaFiles()
+function EsoLuaLoader:requireLuaFiles(manifestPath)
     -- eso loads/requires the lua files internally. Let's replicate this behaviour
     -- to avoid any mismatched require between the tests and src
 
-    local file = assert(io.open("Pomodoro.txt", "rb"))
+    local file = assert(io.open(manifestPath, "rb"))
     for line in file:lines() do
         local isLua = string.match(line, "^%a")
 

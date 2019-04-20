@@ -1,4 +1,4 @@
-## About ESOUI Addon Framework
+## About ESOUI Framework
 Create a development environment that is enjoyable and creative by allowing you to quickly and easily jump create esoui addons using TDD approach.
 
 Use docker to expose lua interpreter upon alpine linux, luarocks package manager, and the busted lua testing framework.
@@ -14,6 +14,7 @@ Use docker to expose lua interpreter upon alpine linux, luarocks package manager
     - `docker-compose build lua`
     - `docker-compose build luarocks`
     - `docker-compose build busted`
+- Replace `AddonName` with the addon name in `tests/bootstrap.lua`
 - Execute Tests `docker-compose run --rm busted  tests -v`
 
 ### Scripts

@@ -1,10 +1,11 @@
+local manifestPath = 'AddonName.txt'
+
 require "TimeAssertion"
-require "InstanceAssertion"
 require "ChatAssertion"
 
 local esouiLoader = require 'EsoLuaLoader'
 esouiLoader:initializeGlobals()
-esouiLoader:requireLuaFiles()
+esouiLoader:requireLuaFiles(manifestPath)
 
 function dd(variable)
     local inspectioner = require 'inspect'
