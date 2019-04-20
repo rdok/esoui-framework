@@ -1,17 +1,26 @@
-ZO_SavedVars = {}
-ZO_SavedVars.accounts = {}
+ZO_SavedVars = {
+    accounts = {}
+}
 
 function ZO_SavedVars:NewAccountWide(savedVariableTable, version, namespace, defaults, profile, displayName)
-    table.insert(ZO_SavedVars.accounts, {
+
+    local index = 1
+
+    if nil ~= ZO_SavedVars.accounts then
+        index = #ZO_SavedVars.accounts + 1
+    end
+
+    ZO_SavedVars.accounts[index] = {
         ['savedVariableTable'] = savedVariableTable,
         ['version'] = version,
         ['namespace'] = namespace,
         ['defaults'] = defaults,
         ['profile'] = profile,
         ['displayName'] = displayName
-    })
+    }
 end
 
-function ZO_SavedVars:getAccounts()
-    return ZO_SavedVars.accounts
+function ZO_SavedVars:getAccount(index)
+    return ZO_SavedVars.accounts[index]
 end
+

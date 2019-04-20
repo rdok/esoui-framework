@@ -2,10 +2,11 @@ describe("ZO_SavedVars", function()
 
     before_each(function()
         -- required to clear up other tests
-        ZO_SavedVars:initialize()
     end)
 
     it("should store new account variables", function()
+        ZO_SavedVars.accounts = {}
+
         ZO_SavedVars:NewAccountWide(
                 'savedVariableTable',
                 'version',
@@ -24,7 +25,8 @@ describe("ZO_SavedVars", function()
             ['displayName'] = 'displayName'
         }
 
-        assert.is_same(expected, ZO_SavedVars:getAccounts()[1])
+        assert.is_same(expected, ZO_SavedVars:getAccount(1))
     end)
 
 end)
+
