@@ -1,5 +1,9 @@
+## About ESOUI Addon Framework
+Create a development environment that is enjoyable and creative by allowing you to quickly and easily jump create esoui addons using TDD approach.
+
+It uses docker to expose lua services such as lua interpreter, luarocks package manager, and the most popular lua BDD testing framework busted.
+
 ### Developer Environment
-> Use docker to expose lua services such as lua interpreter, luarocks package manager, and the most popular lua BDD testing framework busted.
 
 - Setup https://docs.docker.com/install/
 - Build the images:  
