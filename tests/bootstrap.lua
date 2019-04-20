@@ -2,6 +2,7 @@ local manifestPath = 'AddonName.txt'
 
 require "TimeAssertion"
 require "ChatAssertion"
+require "TypeAssertion"
 
 local esouiLoader = require 'EsoLuaLoader'
 esouiLoader:initializeGlobals()
