@@ -2,9 +2,9 @@
 ## AddOnVersion: 1
 ## Version: 1.0.0
 ## APIVersion: 100026
-## Author: {Author Name
+## Author: {Author Name}
 
-src/TextFormatter.lua
+src/AddonName.lua
 
 # This Add-on is not created by, affiliated with, or sponsored by, ZeniMax Media Inc. or its affiliates.
 # The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States
